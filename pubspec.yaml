@@ -1,0 +1,26 @@
+name: gt_sizer
+description: A responsive sizing utility for Flutter with hybrid scaling for width, height, fonts, icons, and spacing across mobile, tablet, and desktop devices.
+version: 1.0.0
+homepage: https://github.com/GauravTechnical24/gt_sizer.git
+repository: https://github.com/GauravTechnical24/gt_sizer.git
+issue_tracker: https://github.com/GauravTechnical24/gt_sizer/issues
+
+topics:
+  - responsive
+  - sizer
+  - scaling
+  - ui
+  - layout
+
+environment:
+  sdk: ^3.0.0
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
