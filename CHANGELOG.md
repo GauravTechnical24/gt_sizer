@@ -1,3 +1,20 @@
+## 1.1.0
+
+### Improvements 🚀
+
+#### Flutter SDK Upgrade
+- Upgraded project to leverage the latest stable Flutter & Dart SDKs.
+- Optimized compatibility with modern Dart features.
+
+#### Performance Optimization
+- Refactored `MediaQuery` access to use more efficient granular fetchers.
+- Replaced `MediaQuery.of(context)` with `MediaQuery.sizeOf(context)`, `paddingOf(context)`, and `viewInsetsOf(context)` in `ResponsiveUtils`.
+- This change ensures better performance by reducing unnecessary widget rebuilds.
+
+#### Maintenance
+- Internal code cleanup and adherence to Flutter best practices.
+- Verified stable behavior across Mobile, Tablet, and Desktop.
+
 ## 1.0.0
 
 ### Initial Release 🚀

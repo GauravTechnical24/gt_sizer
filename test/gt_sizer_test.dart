@@ -75,7 +75,7 @@ void main() {
       final isMobile = SizeManager.isMobile;
       final isTablet = SizeManager.isTablet;
       final isDesktop = SizeManager.isDesktop;
-      
+
       // Only one should be true at a time
       final trueCount = [isMobile, isTablet, isDesktop].where((b) => b).length;
       expect(trueCount, equals(1));

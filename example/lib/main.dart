@@ -306,8 +306,8 @@ class SizerDemoScreen extends StatelessWidget {
     final columns = SizeManager.isMobile
         ? 2
         : SizeManager.isTablet
-        ? 3
-        : 4;
+            ? 3
+            : 4;
 
     return Card(
       child: Padding(

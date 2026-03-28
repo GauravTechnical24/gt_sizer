@@ -2,6 +2,6 @@
 ///
 /// Provides hybrid scaling for width, height, fonts, and icons across
 /// different device types (mobile, tablet, desktop/web).
-library gt_sizer;
+library;
 
 export 'sizer_handler/responsive_utils.dart';
